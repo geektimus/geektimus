@@ -1,14 +1,9 @@
-<a href="https://github.com/geektimus/geektimus">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=geektimus&theme=gruvbox&hide=css,vim%20script" />
-</a>
-<a href="https://github.com/geektimus/geektimus">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=geektimus&show_icons=true&line_height=27&count_private=true&theme=gruvbox" alt="Geektimus's GitHub Stats" />
-</a>
+# Geektimus
 
-<a href="https://github.com/geektimus/scala-challenges">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=geektimus&repo=scala-challenges&theme=gruvbox" />
-</a>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geektimus&theme=synthwave&hide=css,SCSS,vim%20script&layout=compact)](https://github.com/geektimus)
 
-<a href="https://github.com/geektimus/java-challenges">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=geektimus&repo=java-challenges&theme=gruvbox" />
-</a>
+![Geektimus's GitHub stats](https://github-readme-stats.vercel.app/api?username=geektimus&show_icons=true&count_private=true&theme=synthwave)
+
+[![Scala Challenges](https://github-readme-stats.vercel.app/api/pin/?username=geektimus&repo=scala-challenges&theme=synthwave)](https://github.com/geektimus/scala-challenges)
+
+[![Java Challenges](https://github-readme-stats.vercel.app/api/pin/?username=geektimus&repo=java-challenges&theme=synthwave)](https://github.com/geektimus/java-challenges)
