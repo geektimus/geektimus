@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 195" width="360" height="195">
+  <style>
+    .header { font: 700 18px "Segoe UI", Ubuntu, -apple-system, sans-serif; fill: #E2E9EC; }
+    .lang-name { font: 500 13px "Segoe UI", Ubuntu, -apple-system, sans-serif; fill: #E2E9EC; }
+    .lang-percent { font: 400 12px "Segoe UI", Ubuntu, -apple-system, sans-serif; fill: #988ba2; text-anchor: end; }
+  </style>
+
+  <rect width="360" height="195" rx="6" fill="#2B213A" stroke="transparent" />
+
+  <!-- Title -->
+  <g transform="translate(25, 32)">
+    <text class="header">Most Used Languages</text>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="25" y1="44" x2="335" y2="44" stroke="#3e3352" stroke-width="1" />
+
+  <!-- Multi-color Language Bar -->
+  <g transform="translate(25, 58)">
+    <rect x="0" y="0" width="310" height="8" rx="4" fill="#1b1425" />
+    <g clip-path="url(#bar-clip)">
+      <rect x="0.0" y="0" width="104.5" height="8" fill="#5e5086" rx="2" />
+    <rect x="104.5" y="0" width="93.4" height="8" fill="#c22d40" rx="2" />
+    <rect x="198.0" y="0" width="32.9" height="8" fill="#b07219" rx="2" />
+    <rect x="230.9" y="0" width="29.6" height="8" fill="#3572A5" rx="2" />
+    <rect x="260.5" y="0" width="19.9" height="8" fill="#f1e05a" rx="2" />
+    <rect x="280.4" y="0" width="13.3" height="8" fill="#00ADD8" rx="2" />
+    </g>
+    <clipPath id="bar-clip">
+      <rect x="0" y="0" width="310" height="8" rx="4" />
+    </clipPath>
+  </g>
+
+  <!-- Language List -->
+  <g transform="translate(25, 96)">
+    
+      <g transform="translate(0, 0)">
+        <circle cx="5" cy="-4" r="5" fill="#5e5086" />
+        <text class="lang-name" x="16" y="0">Haskell</text>
+        <text class="lang-percent" x="125" y="0">33.7%</text>
+      </g>
+      <g transform="translate(0, 24)">
+        <circle cx="5" cy="-4" r="5" fill="#c22d40" />
+        <text class="lang-name" x="16" y="0">Scala</text>
+        <text class="lang-percent" x="125" y="0">30.1%</text>
+      </g>
+      <g transform="translate(0, 48)">
+        <circle cx="5" cy="-4" r="5" fill="#b07219" />
+        <text class="lang-name" x="16" y="0">Java</text>
+        <text class="lang-percent" x="125" y="0">10.6%</text>
+      </g>
+    
+      <g transform="translate(160, 0)">
+        <circle cx="5" cy="-4" r="5" fill="#3572A5" />
+        <text class="lang-name" x="16" y="0">Python</text>
+        <text class="lang-percent" x="125" y="0">9.5%</text>
+      </g>
+      <g transform="translate(160, 24)">
+        <circle cx="5" cy="-4" r="5" fill="#f1e05a" />
+        <text class="lang-name" x="16" y="0">JavaScript</text>
+        <text class="lang-percent" x="125" y="0">6.4%</text>
+      </g>
+      <g transform="translate(160, 48)">
+        <circle cx="5" cy="-4" r="5" fill="#00ADD8" />
+        <text class="lang-name" x="16" y="0">Go</text>
+        <text class="lang-percent" x="125" y="0">4.3%</text>
+      </g>
+  </g>
+</svg>

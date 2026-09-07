@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 160" width="100%" height="160">
+  <style>
+    .grid-bg { fill: #161221; rx: 6px; }
+    .cell { rx: 2px; }
+    .c0 { fill: #231b2e; }
+    .c1 { fill: #48235e; }
+    .c2 { fill: #79258a; }
+    .c3 { fill: #ba289c; }
+    .c4 { fill: #e5289e; }
+    @keyframes snakeMove {
+      0% { transform: translate(0, 0); }
+      25% { transform: translate(240px, 0); }
+      50% { transform: translate(240px, 48px); }
+      75% { transform: translate(480px, 48px); }
+      100% { transform: translate(680px, 12px); }
+    }
+    .snake-head { fill: #00fbfd; filter: drop-shadow(0 0 4px #00fbfd); animation: snakeMove 12s infinite alternate ease-in-out; }
+    .snake-body { fill: #e5289e; filter: drop-shadow(0 0 3px #e5289e); animation: snakeMove 12s infinite alternate ease-in-out; animation-delay: -0.15s; }
+    .title-text { font: 600 12px "Segoe UI", Ubuntu, sans-serif; fill: #8b799e; }
+  </style>
+
+  <rect width="840" height="160" class="grid-bg" />
+
+  <text x="24" y="24" class="title-text">Contribution Graph &amp; Activity</text>
+
+  <!-- Simulated Contribution Matrix Pattern -->
+  <g transform="translate(24, 40)">
+    <!-- Week Columns -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c2" /><rect x="0" y="60" width="12" height="12" class="cell c0" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(15, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c1" /><rect x="0" y="15" width="12" height="12" class="cell c2" /><rect x="0" y="30" width="12" height="12" class="cell c3" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c1" /><rect x="0" y="75" width="12" height="12" class="cell c2" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(30, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c0" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c4" /><rect x="0" y="60" width="12" height="12" class="cell c3" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c1" />
+    </g>
+    <g transform="translate(45, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c2" /><rect x="0" y="15" width="12" height="12" class="cell c3" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c1" /><rect x="0" y="60" width="12" height="12" class="cell c2" /><rect x="0" y="75" width="12" height="12" class="cell c4" /><rect x="0" y="90" width="12" height="12" class="cell c2" />
+    </g>
+    <g transform="translate(60, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c2" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c0" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(75, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c1" /><rect x="0" y="15" width="12" height="12" class="cell c0" /><rect x="0" y="30" width="12" height="12" class="cell c3" /><rect x="0" y="45" width="12" height="12" class="cell c2" /><rect x="0" y="60" width="12" height="12" class="cell c1" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(90, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c3" /><rect x="0" y="15" width="12" height="12" class="cell c2" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c4" /><rect x="0" y="60" width="12" height="12" class="cell c2" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(105, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c0" /><rect x="0" y="75" width="12" height="12" class="cell c2" /><rect x="0" y="90" width="12" height="12" class="cell c1" />
+    </g>
+    <g transform="translate(120, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c2" /><rect x="0" y="15" width="12" height="12" class="cell c0" /><rect x="0" y="30" width="12" height="12" class="cell c2" /><rect x="0" y="45" width="12" height="12" class="cell c3" /><rect x="0" y="60" width="12" height="12" class="cell c1" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(135, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c3" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c2" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(150, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c1" /><rect x="0" y="15" width="12" height="12" class="cell c2" /><rect x="0" y="30" width="12" height="12" class="cell c4" /><rect x="0" y="45" width="12" height="12" class="cell c2" /><rect x="0" y="60" width="12" height="12" class="cell c0" /><rect x="0" y="75" width="12" height="12" class="cell c3" /><rect x="0" y="90" width="12" height="12" class="cell c1" />
+    </g>
+    <g transform="translate(165, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c0" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c2" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(180, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c1" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c3" /><rect x="0" y="60" width="12" height="12" class="cell c2" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(195, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c2" /><rect x="0" y="15" width="12" height="12" class="cell c4" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c1" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c2" />
+    </g>
+    <g transform="translate(210, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c2" /><rect x="0" y="60" width="12" height="12" class="cell c3" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(225, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c1" /><rect x="0" y="15" width="12" height="12" class="cell c0" /><rect x="0" y="30" width="12" height="12" class="cell c3" /><rect x="0" y="45" width="12" height="12" class="cell c1" /><rect x="0" y="60" width="12" height="12" class="cell c0" /><rect x="0" y="75" width="12" height="12" class="cell c2" /><rect x="0" y="90" width="12" height="12" class="cell c1" />
+    </g>
+    <g transform="translate(240, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c2" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c4" /><rect x="0" y="75" width="12" height="12" class="cell c2" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(255, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c3" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c2" /><rect x="0" y="60" width="12" height="12" class="cell c1" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c1" />
+    </g>
+    <g transform="translate(270, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c1" /><rect x="0" y="15" width="12" height="12" class="cell c0" /><rect x="0" y="30" width="12" height="12" class="cell c2" /><rect x="0" y="45" width="12" height="12" class="cell c1" /><rect x="0" y="60" width="12" height="12" class="cell c0" /><rect x="0" y="75" width="12" height="12" class="cell c3" /><rect x="0" y="90" width="12" height="12" class="cell c2" />
+    </g>
+    <g transform="translate(285, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c0" /><rect x="0" y="15" width="12" height="12" class="cell c1" /><rect x="0" y="30" width="12" height="12" class="cell c0" /><rect x="0" y="45" width="12" height="12" class="cell c4" /><rect x="0" y="60" width="12" height="12" class="cell c2" /><rect x="0" y="75" width="12" height="12" class="cell c1" /><rect x="0" y="90" width="12" height="12" class="cell c0" />
+    </g>
+    <g transform="translate(300, 0)">
+      <rect x="0" y="0" width="12" height="12" class="cell c2" /><rect x="0" y="15" width="12" height="12" class="cell c3" /><rect x="0" y="30" width="12" height="12" class="cell c1" /><rect x="0" y="45" width="12" height="12" class="cell c0" /><rect x="0" y="60" width="12" height="12" class="cell c1" /><rect x="0" y="75" width="12" height="12" class="cell c0" /><rect x="0" y="90" width="12" height="12" class="cell c1" />
+    </g>
+
+    <!-- Animated Snake -->
+    <rect x="15" y="45" width="12" height="12" rx="2" class="snake-body" />
+    <rect x="30" y="45" width="12" height="12" rx="2" class="snake-head" />
+  </g>
+</svg>
