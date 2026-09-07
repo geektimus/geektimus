@@ -3,7 +3,7 @@
 # Hi there, I'm Alex Cano 👋
 
 [![GitHub](https://img.shields.io/badge/GitHub-geektimus-2b213a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/geektimus)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alex_Cano-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-cano/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-geektimus-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geektimus/)
 [![Location](https://img.shields.io/badge/Location-Medell%C3%ADn%2C%20Colombia-e5289e?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Medellin,+Colombia)
 
 <br/>
