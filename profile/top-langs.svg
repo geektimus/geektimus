@@ -19,12 +19,12 @@
   <g transform="translate(25, 58)">
     <rect x="0" y="0" width="310" height="8" rx="4" fill="#1b1425" />
     <g clip-path="url(#bar-clip)">
-      <rect x="0.0" y="0" width="101.3" height="8" fill="#5e5086" rx="2" />
-    <rect x="101.3" y="0" width="90.6" height="8" fill="#c22d40" rx="2" />
-    <rect x="191.9" y="0" width="31.9" height="8" fill="#b07219" rx="2" />
-    <rect x="223.8" y="0" width="28.7" height="8" fill="#3572A5" rx="2" />
-    <rect x="252.5" y="0" width="25.5" height="8" fill="#f1e05a" rx="2" />
-    <rect x="278.1" y="0" width="12.9" height="8" fill="#00ADD8" rx="2" />
+      <rect x="0.0" y="0" width="101.6" height="8" fill="#5e5086" rx="2" />
+    <rect x="101.6" y="0" width="90.8" height="8" fill="#c22d40" rx="2" />
+    <rect x="192.4" y="0" width="32.0" height="8" fill="#b07219" rx="2" />
+    <rect x="224.4" y="0" width="28.8" height="8" fill="#3572A5" rx="2" />
+    <rect x="253.2" y="0" width="24.8" height="8" fill="#f1e05a" rx="2" />
+    <rect x="278.0" y="0" width="13.0" height="8" fill="#00ADD8" rx="2" />
     </g>
     <clipPath id="bar-clip">
       <rect x="0" y="0" width="310" height="8" rx="4" />
@@ -37,12 +37,12 @@
       <g transform="translate(0, 0)">
         <circle cx="5" cy="-4" r="5" fill="#5e5086" />
         <text class="lang-name" x="16" y="0">Haskell</text>
-        <text class="lang-percent" x="125" y="0">32.7%</text>
+        <text class="lang-percent" x="125" y="0">32.8%</text>
       </g>
       <g transform="translate(0, 24)">
         <circle cx="5" cy="-4" r="5" fill="#c22d40" />
         <text class="lang-name" x="16" y="0">Scala</text>
-        <text class="lang-percent" x="125" y="0">29.2%</text>
+        <text class="lang-percent" x="125" y="0">29.3%</text>
       </g>
       <g transform="translate(0, 48)">
         <circle cx="5" cy="-4" r="5" fill="#b07219" />
@@ -58,7 +58,7 @@
       <g transform="translate(160, 24)">
         <circle cx="5" cy="-4" r="5" fill="#f1e05a" />
         <text class="lang-name" x="16" y="0">JavaScript</text>
-        <text class="lang-percent" x="125" y="0">8.2%</text>
+        <text class="lang-percent" x="125" y="0">8.0%</text>
       </g>
       <g transform="translate(160, 48)">
         <circle cx="5" cy="-4" r="5" fill="#00ADD8" />
